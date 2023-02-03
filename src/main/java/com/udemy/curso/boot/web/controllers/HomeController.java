@@ -1,4 +1,4 @@
-package com.udemy.curso.boot.web.controller;
+package com.udemy.curso.boot.web.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +8,6 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String home() {
-		return "home";
+		return "/home";
 	}
 }
