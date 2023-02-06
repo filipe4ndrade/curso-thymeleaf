@@ -1,2 +1,1 @@
-# curso-thymeleaf
-Primeiro Projeto com ThymeLeaf
+# Primeiro Projeto com ThymeLeaf
