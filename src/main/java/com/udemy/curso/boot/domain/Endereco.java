@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 public class Endereco extends AbstractEntity<Long> {
 
 	@Column(nullable = false)
-	private String logadouro;
+	private String logradouro;
 	
 	@Column(nullable = false)
 	private String bairro;
@@ -32,12 +32,12 @@ public class Endereco extends AbstractEntity<Long> {
 	
 	private String complemento;
 
-	public String getLogadouro() {
-		return logadouro;
+	public String getLogradouro() {
+		return logradouro;
 	}
 
-	public void setLogadouro(String logadouro) {
-		this.logadouro = logadouro;
+	public void setLogradouro(String logradouro) {
+		this.logradouro = logradouro;
 	}
 
 	public String getBairro() {

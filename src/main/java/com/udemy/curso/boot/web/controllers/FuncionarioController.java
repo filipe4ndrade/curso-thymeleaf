@@ -68,7 +68,7 @@ public class FuncionarioController {
 		return "redirect:/funcionarios/listar";
 	}	
 	
-	/*@GetMapping("/buscar/nome")
+	@GetMapping("/buscar/nome")
 	public String getPorNome(@RequestParam("nome") String nome, ModelMap model) {		
 		model.addAttribute("funcionarios", funcionarioService.buscarPorNome(nome));
 		return "/funcionario/lista";
@@ -81,13 +81,13 @@ public class FuncionarioController {
 	}		
 	
     @GetMapping("/buscar/data")
-    public String getPorDatas(@RequestParam("entrada") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate entrada,
-                              @RequestParam("saida") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate saida,
+    public String getPorDatas(@RequestParam(name ="entrada", required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate entrada,
+                              @RequestParam(name ="saida", required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate saida,
                               ModelMap model) {
 
         model.addAttribute("funcionarios", funcionarioService.buscarPorDatas(entrada, saida));
         return "/funcionario/lista";
-    }*/
+    }
 	
 	@ModelAttribute("cargos")
 	public List<Cargo> getCargos() {
