@@ -39,7 +39,7 @@ public class FuncionarioController {
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
 		binder.addValidators(new FuncionarioValidator());
-	}
+	}	
 	
 	@GetMapping("/cadastrar")
 	public String cadastrar(Funcionario funcionario) {
