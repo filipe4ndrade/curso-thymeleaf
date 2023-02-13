@@ -36,7 +36,7 @@ public class DepartamentoController {
 	@PostMapping("/salvar")
 	public String salvar(@Valid Departamento departamento, BindingResult result, RedirectAttributes attr) {
 		if(result.hasErrors()) {
-			return "/cargo/cadastro";
+			return "/departamento/cadastro";
 		}
 		
 		service.salvar(departamento);
@@ -53,7 +53,7 @@ public class DepartamentoController {
 	@PostMapping("/editar")
 	public String editar(@Valid Departamento departamento, BindingResult result, RedirectAttributes attr) {
 		if(result.hasErrors()) {
-			return "/cargo/cadastro";
+			return "/departamento/cadastro";
 		}
 		
 		service.editar(departamento);
