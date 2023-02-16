@@ -1,7 +1,7 @@
 # Primeiro Projeto com ThymeLeaf
 ## Fundamentos Aplicados no Projeto:
 
-- Configurar aplicação baseadas no Spring-Boot
+- Configurar aplicação baseadas no Spring-Boot.
 
 - Desenvolver aplicações web com o Spring MVC.
 
