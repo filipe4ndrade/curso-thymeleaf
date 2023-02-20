@@ -15,4 +15,4 @@
 
 - Usar recursos estáticos (CSS e JS) via WebJars.
 
-- Apto a participar de cursos com foco intermediário ou avançado no desenvolvimento com Spring Boot.
+- Apto a participar de cursos com foco intermediário ou avançado no desenvolvimento com Spring Boot
