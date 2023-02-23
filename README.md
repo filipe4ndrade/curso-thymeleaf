@@ -11,7 +11,7 @@
 
 - Validação de formulários no lado servidor com Bean Validation.
 
-- Trabalhar com views baseadas no template Thymeleaf.
+- Trabalhar com views baseadas no template Thymeleaf
 
 - Usar recursos estáticos (CSS e JS) via WebJars.
 
